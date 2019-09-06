@@ -12,6 +12,10 @@ const personalitySchema = new Schema({
         type: String,
         required: true
     },
+    mediaId: {
+        type: mongoose.Schema.ObjectId,
+        ref: 'Media'
+    },
     claims: [{
         type: mongoose.Schema.ObjectId,
         ref: 'Claim',
