@@ -4,12 +4,13 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const mediaSchema = new Schema({
-    originalName: {
+    originalname: {
         type: String,
         required: true
     },
     link: {
-        type: String
+        type: String,
+        required: true
     }
 });
 
