@@ -1,6 +1,7 @@
 {
   "name": "root",
   "private": false,
+  "license": "MIT",
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "lint": "eslint --cache --max-warnings 0 --ext .js --ext .jsx .",
